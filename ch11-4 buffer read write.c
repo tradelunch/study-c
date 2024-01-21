@@ -35,7 +35,7 @@ int main(int argc, char const *argv[])
     while(1) {
         res = scanf("%c", &ch);
         if (res == EOF) break;
-        printf("(%d:%c) ", ch, ch);
+        printf("(ASCII-%d:%c) ~\n", ch, ch);
     }
     putchar('\n');
     putchar('\n');
