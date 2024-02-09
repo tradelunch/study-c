@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
     printf("str3이 str4보다 사전에서 먼저 나오면 -1 \n");
     printf("str3이 str4보다 나중에 나오면 1 \n");
-    printf("str3이 str4보다 같으면 0 \n");
+    printf("str3이 str4 같으면 0 \n");
 
     char str3[80] = "abcde ff";
     char str4[80] = "abcde fg";
